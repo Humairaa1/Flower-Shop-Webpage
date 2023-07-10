@@ -19,6 +19,10 @@ body {
 .primary-clr{
     color: #E55473;
 }
+.primary-title{
+    color: #272727;
+font-size: 30px;
+}
 
 /* Header section styles */
 .header {
@@ -36,6 +40,8 @@ body {
 .header-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .header-img {
@@ -53,15 +59,14 @@ background: rgba(229, 84, 115, 0.05);
     margin-top: 110px;
     padding: 80px 20px 80px 20px;
 }
-.discount-title{
-    color: #272727;
-font-size: 30px;
-}
+
 .discount-description{
     color: rgba(39, 39, 39, 0.60);
 font-size: 13px;
 width: 70%;
 margin: auto;
+margin-top: 18px;
+margin-bottom: 28px;
 }
 .discount-info{
     text-align: center;
@@ -72,10 +77,7 @@ margin: auto;
     text-align: center;
     margin-top: 110px;
 }
-.insta-title{
-    color: #272727;
-font-size: 30px;
-}
+
 .insta-description{
     color: rgba(39, 39, 39, 0.60);
 font-size: 13px;
@@ -93,4 +95,28 @@ margin-bottom: 40px;
     width: 242px;
 height: 296px;
 }
+
+/* subscrib section styles */
+.subscrib-container{
+    background-image: url(../images/Rectangle\ 9.png);
+    height: 350px;
+    width: 1050px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.subtitle{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 13px;
+}
+.email-input{
+    width: 500px;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+}
+
 
