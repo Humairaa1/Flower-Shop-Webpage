@@ -16,6 +16,9 @@ body {
     border: none;
     color: white;
 }
+.primary-clr{
+    color: #E55473;
+}
 
 /* Header section styles */
 .header {
@@ -39,4 +42,27 @@ body {
     width: 535px;
     height: 700px;
 
+}
+
+/* Discount Section Styles */
+.Discount-container{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    padding: 80px 20px 80px 20px;
+}
+.discount-title{
+    color: #272727;
+font-size: 30px;
+}
+.discount-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 13px;
+width: 70%;
+margin: auto;
+}
+.discount-info{
+    text-align: center;
 }
