@@ -66,3 +66,31 @@ margin: auto;
 .discount-info{
     text-align: center;
 }
+
+/* Instagram section Styles */
+.instagram{
+    text-align: center;
+    margin-top: 110px;
+}
+.insta-title{
+    color: #272727;
+font-size: 30px;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 13px;
+width: 30%;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+.all-box-img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.box-img{
+    width: 242px;
+height: 296px;
+}
+
