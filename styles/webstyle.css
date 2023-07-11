@@ -16,12 +16,14 @@ body {
     border: none;
     color: white;
 }
-.primary-clr{
+
+.primary-clr {
     color: #E55473;
 }
-.primary-title{
+
+.primary-title {
     color: #272727;
-font-size: 30px;
+    font-size: 30px;
 }
 
 /* Header section styles */
@@ -50,54 +52,110 @@ font-size: 30px;
 
 }
 
+/* Feature Section Complete */
+.feature-container {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.all-feature-box {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-box {
+    width: 350px;
+    height: 430px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.box-name {
+    color: #272727;
+    font-size: 20px;
+    text-decoration-line: underline;
+    margin-top: 28px;
+}
+
+.pink-flower {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.red-flower {
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.yellow-flower {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.img-size {
+    height: 330px;
+    width: 210px;
+    padding-top: 100px;
+
+}
+
 /* Discount Section Styles */
-.Discount-container{
+.Discount-container {
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.05);
     display: flex;
     align-items: center;
     margin-top: 110px;
     padding: 80px 20px 80px 20px;
 }
 
-.discount-description{
+.discount-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 13px;
-width: 70%;
-margin: auto;
-margin-top: 18px;
-margin-bottom: 28px;
+    font-size: 13px;
+    width: 70%;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 28px;
 }
-.discount-info{
+
+.discount-info {
     text-align: center;
 }
 
 /* Instagram section Styles */
-.instagram{
+.instagram {
     text-align: center;
     margin-top: 110px;
 }
 
-.insta-description{
+.insta-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 13px;
-width: 30%;
-margin: auto;
-margin-top: 20px;
-margin-bottom: 40px;
+    font-size: 13px;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
-.all-box-img{
+
+.all-box-img {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-.box-img{
+
+.box-img {
     width: 242px;
-height: 296px;
+    height: 296px;
 }
 
 /* subscrib section styles */
-.subscrib-container{
+.subscrib-container {
     background-image: url(../images/Rectangle\ 9.png);
     height: 350px;
     width: 1050px;
@@ -109,20 +167,50 @@ height: 296px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.subscrib-content{
-   
-}
-.subtitle{
+
+.subtitle {
     color: rgba(39, 39, 39, 0.60);
-font-size: 13px;
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 40px;
 }
-.email-input{
+
+.email-input {
     width: 500px;
     border-radius: 8px;
     border: none;
     padding: 20px;
 }
 
+/* footer section styles */
+.footer-section {
+    margin-top: 120px;
+    background-color: black;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer-title {
+    font-size: 40px;
+    color: white;
+
+}
+
+.footer-decription {
+
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+}
